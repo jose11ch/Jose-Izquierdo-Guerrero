@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//IZD//Recordatorios//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f29-sii-mauricio@izd
+DTSTAMP:20261124T143000Z
+DTSTART;TZID=America/Santiago:20261214T094500
+DTEND;TZID=America/Santiago:20261214T100000
+RRULE:FREQ=MONTHLY;BYMONTHDAY=14,18
+SUMMARY:⚠️ Contactar a Mauricio — F29 SII vence el 20
+DESCRIPTION:El F29 (IVA y PPM) se declara y paga hasta el día 20 (si cae fin de semana o feriado\, pasa al siguiente día hábil). Llamar o escribir a Mauricio hoy para dejarlo listo. Atrasarse implica multa de 10% a 30% más intereses.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Contactar a Mauricio — F29 vence el 20
+TRIGGER:PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:En 1 hora: contactar a Mauricio por el F29
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
