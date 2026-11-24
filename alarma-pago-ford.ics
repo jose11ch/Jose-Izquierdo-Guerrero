@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//IZD//Recordatorios//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:pago-ford-29-mauricio@izd
+DTSTAMP:20261124T142800Z
+DTSTART;TZID=America/Santiago:20261126T094500
+DTEND;TZID=America/Santiago:20261126T100000
+RRULE:FREQ=MONTHLY;BYMONTHDAY=26,28
+SUMMARY:⚠️ Contactar a Mauricio — pago Ford vence el 29
+DESCRIPTION:El pago del Ford vence el 29. Llamar o escribir a Mauricio hoy para dejarlo coordinado. Atrasarse sale carísimo.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Contactar a Mauricio — pago Ford vence el 29
+TRIGGER:PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:En 1 hora: contactar a Mauricio por el pago del Ford
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
